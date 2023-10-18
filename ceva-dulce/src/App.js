@@ -1,10 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import NavBar from "./Pages/NavBar";
-
+import MainePage from "./Pages/MainePage";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<NavBar/>} />
+      <Route path="/" element={<MainePage/>} />
     </Routes>
   );
 }

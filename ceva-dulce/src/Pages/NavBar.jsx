@@ -1,5 +1,4 @@
-import MainePage from "./MainePage";
-
+import {Link} from 'react-scroll'
 
 const NavBar = () => {
   return (
@@ -19,7 +18,15 @@ const NavBar = () => {
         </div>
         <div className="px-2 font-lobster text-3xl flex justify-center  space-x-2.5 pb-2  ">
           <button className="px-6 hover:bg-yellow-500 border-2 rounded-full ">
-            <a href="#navbar">Acasa</a>
+            <Link
+              to="navbar"
+              spy={true}
+              smooth={true}
+              offset={100}
+              duration={500}
+            >
+              Acasa
+            </Link>
           </button>
           <button className="px-6 hover:bg-yellow-500 border-2 rounded-full">
             <a href="#produse">Produse</a>
@@ -28,10 +35,17 @@ const NavBar = () => {
             <a href="#about">Despre noi</a>
           </button>
           <button className="px-6  hover:bg-yellow-500 border-2 rounded-full">
-            <a href="#contact">Contact</a>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={100}
+              duration={500}
+            >
+              Contact
+            </Link>
           </button>
         </div>
-        <MainePage />
       </div>
     </div>
   );

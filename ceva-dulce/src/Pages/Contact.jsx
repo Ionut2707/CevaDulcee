@@ -1,4 +1,3 @@
-import MiddleLine from "./MiddleLine";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -10,20 +9,20 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_ljfxm47",
-        "template_xapft3a",
+        "service_nrwz5u8",
+        "template_1uxdnwg",
         form.current,
-        "du7lKD3UhqFbFad05"
+        "5ckAxUVXKiEmgF0tl"
       )
       .then(
         (result) => {
-              console.log(result.text);
-              form.current.reset();
+          console.log(result.text);
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
         }
-    );
+      );
       alert("Mesajul dumneavoastra a fost trimis, vom reveni in cel mai scurt timp")
   };
 
@@ -84,7 +83,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <div className="w-full flex justify-center ">
-              <button type="submit" className="border-2 rounded-lg py-2 px-4">
+              <button type="submit" className="border-2 rounded-lg py-2 px-4 text-yellow-800">
                 Trimite Mesaj
               </button>
             </div>
