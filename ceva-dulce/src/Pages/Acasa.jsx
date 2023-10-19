@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const Acasa = () => {
   return (
     <div id="home">
-      <div className="bg-gray-100 rounded-xl flex justify-between ">
+      <div className="bg-gray-100 rounded-xl flex justify-between  ">
         <div className="flex justify-start px-12 py-[120px] font-lobster text-brown-500 text-2xl">
           <p>
             În fiecare zi, ne străduim să vă încântăm cu cele mai delicioase

@@ -29,7 +29,15 @@ const NavBar = () => {
             </Link>
           </button>
           <button className="px-6 hover:bg-gray-200 border-2 rounded-full">
-            <a href="#produse">Produse</a>
+            <Link
+              to="produse"
+              spy={true}
+              smooth={true}
+              offset={100}
+              duration={1000}
+            >
+              Produse
+            </Link>
           </button>
           <button className="px-6  hover:bg-gray-200 border-2 rounded-full">
             <a href="#about">Despre noi</a>

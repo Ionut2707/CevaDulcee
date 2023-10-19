@@ -4,6 +4,7 @@ import Contact from "./Contact";
 import NavBar from "./NavBar";
 import Acasa from "./Acasa";
 import Footer from "./Footer";
+import Produse from "./Produse";
 
 const MainePage = () => {
   return (
@@ -11,6 +12,8 @@ const MainePage = () => {
       <NavBar />
       <Acasa />
       <MiddleLine />
+      <Produse />
+      <MiddleLine/>
       <Contact />
       <MiddleLine />
       <Footer />
