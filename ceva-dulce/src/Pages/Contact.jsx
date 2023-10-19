@@ -27,17 +27,17 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact">
+    <div id="contact" className="font-lobster">
       <section className="bg-white dark:bg-gray-900 ">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md bg-gray-100 rounded-xl ">
-          <h2 className="mb-4 text-4xl tracking-tight font-lobster text-center text-yellow-800 dark:text-white">
+          <h2 className="mb-4 text-4xl tracking-tight  text-center text-brown-500 dark:text-white">
             Contact
           </h2>
           <form ref={form} onSubmit={sendEmail} className="space-y-8">
             <div>
               <label
                 for="nume"
-                className="block mb-2 text-2xl font-lobster text-yellow-800 dark:text-gray-300"
+                className="block mb-2 text-2xl  text-brown-500 dark:text-gray-300"
               >
                 Nume
               </label>
@@ -50,10 +50,10 @@ const Contact = () => {
                 required
               />
             </div>
-            <div>
+            <div className="">
               <label
                 for="subiect"
-                className="block mb-2 text-2xl  text-yellow-800 dark:text-gray-300"
+                className="block mb-2 text-2xl text-brown-500 dark:text-gray-300"
               >
                 Adresa Email
               </label>
@@ -69,7 +69,7 @@ const Contact = () => {
             <div className="sm:col-span-2">
               <label
                 for="message"
-                className="block mb-2 text-2xl  text-yellow-800 dark:text-gray-400 "
+                className="block mb-2 text-2xl  text-brown-500 dark:text-gray-400 "
               >
                 Mesajul Dvs
               </label>
@@ -82,8 +82,8 @@ const Contact = () => {
                 "
               ></textarea>
             </div>
-            <div className="w-full flex justify-center ">
-              <button type="submit" className="border-2 rounded-lg py-2 px-4 text-yellow-800">
+            <div className="w-full flex justify-center text-3xl">
+              <button type="submit" className="border-2 rounded-lg py-2 px-4 text-brown-500">
                 Trimite Mesaj
               </button>
             </div>

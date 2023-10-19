@@ -1,5 +1,18 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+// module.exports = {
+//   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+//   theme: {
+//     extend: {},
+//     fontFamily: {
+//       lobster: ["Lobster Two"],
+//     }
+//   },
+//   plugins: [],
+// };
+
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+module.exports = withMT({
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
@@ -8,4 +21,4 @@ module.exports = {
     }
   },
   plugins: [],
-};
+});
