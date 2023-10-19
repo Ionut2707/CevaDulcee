@@ -3,7 +3,7 @@ import {Link} from 'react-scroll'
 const NavBar = () => {
   return (
     <div className="w-full m-auto  px-4 relative " id="navbar">
-      <div className="font-bold py-3 px-5 text-yellow-800 ">
+      <div className="font-bold py-3 px-5 text-brown-500 ">
         <div className="font-lobster flex items-center rounded-xl ">
           <img
             src="/images/middleline/smile.png"
@@ -17,7 +17,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className="px-2 font-lobster text-3xl flex justify-center  space-x-2.5 pb-2  ">
-          <button className="px-6 hover:bg-yellow-500 border-2 rounded-full ">
+          <button className="px-6 hover:bg-gray-200 border-2 rounded-full ">
             <Link
               to="navbar"
               spy={true}
@@ -28,13 +28,13 @@ const NavBar = () => {
               Acasa
             </Link>
           </button>
-          <button className="px-6 hover:bg-yellow-500 border-2 rounded-full">
+          <button className="px-6 hover:bg-gray-200 border-2 rounded-full">
             <a href="#produse">Produse</a>
           </button>
-          <button className="px-6  hover:bg-yellow-500 border-2 rounded-full">
+          <button className="px-6  hover:bg-gray-200 border-2 rounded-full">
             <a href="#about">Despre noi</a>
           </button>
-          <button className="px-6  hover:bg-yellow-500 border-2 rounded-full">
+          <button className="px-6  hover:bg-gray-200 border-2 rounded-full">
             <Link
               to="contact"
               spy={true}

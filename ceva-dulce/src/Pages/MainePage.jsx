@@ -3,6 +3,7 @@ import MiddleLine from "./MiddleLine";
 import Contact from "./Contact";
 import NavBar from "./NavBar";
 import Acasa from "./Acasa";
+import Footer from "./Footer";
 
 const MainePage = () => {
   return (
@@ -12,6 +13,7 @@ const MainePage = () => {
       <MiddleLine />
       <Contact />
       <MiddleLine />
+      <Footer />
     </div>
   );
 };
