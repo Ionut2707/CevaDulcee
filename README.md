@@ -1,7 +1,8 @@
 # Ceva Dulce
 
 Ceva Dulce is a website dedicated to showcasing a delightful selection of cakes and sweets.
-![CevaDulce Screenshot] (https://github.com/Ionut2707/CevaDulcee/blob/main/ceva-dulce/public/images/bgreadme.png)
+![CevaDulce Screenshot](/public/images/bgreadme.png)
+
 
 
  ## Technologies Used:
