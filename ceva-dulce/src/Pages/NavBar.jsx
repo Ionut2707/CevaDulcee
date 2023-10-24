@@ -2,9 +2,9 @@ import {Link} from 'react-scroll'
 
 const NavBar = () => {
   return (
-    <div className="w-full m-auto  px-4 relative " id="navbar">
+    <div className="w-full m-auto  px-4   top-0 " id="navbar">
       <div className="font-bold py-3 px-5 text-brown-500 ">
-        <div className="font-lobster flex items-center rounded-xl ">
+        <div className="font-lobster flex items-center  ">
           <img
             src="/images/middleline/smile.png"
             className="w-[8rem] h-[8rem] mr-2 "
@@ -40,7 +40,7 @@ const NavBar = () => {
             </Link>
           </button>
           <button className="px-6  hover:bg-gray-200 border-2 rounded-full">
-            <a href="#about">Despre noi</a>
+            Despre noi
           </button>
           <button className="px-6  hover:bg-gray-200 border-2 rounded-full">
             <Link

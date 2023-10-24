@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="relative-w-full ">
       <div className="mx-auto w-full max-w-7xl px-8  text-brown-500 ">
-        <div className="flex justify-center gap-4 md:grid-cols-2 border-2 rounded-lg bg-gray-100">
+        <div className="flex justify-center gap-4 md:grid-cols-2 border-2 rounded-full bg-gray-100">
           <div className="font-lobster text-4xl p-2 align-center w-[420px] flex items-center">
             <b>
               <i>Info Contact</i>

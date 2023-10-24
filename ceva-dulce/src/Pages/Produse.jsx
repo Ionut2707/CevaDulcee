@@ -2,7 +2,7 @@ const Product = ({ title, imageSrc }) => {
   return (
     <div className="flex flex-col justify-center items-center p-4">
       <h3 className="text-2xl font-lobster text-brown-500 mb-2">{title}</h3>
-      <img src={imageSrc} alt={title} className="w-[290px] h-[290px] bg-gray-100 rounded-lg" />
+      <img src={imageSrc} alt={title} className="w-[290px] h-[290px] bg-gray-100 rounded-full" />
     </div>
   );
 };
