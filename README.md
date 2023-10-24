@@ -1,12 +1,12 @@
 # Ceva Dulce
 
 Ceva Dulce is a website dedicated to showcasing a delightful selection of cakes and sweets.
-![Ceva-dulce Screenshot](images/background.png)
+![CevaDulce Screenshot](images/background.png)
 
 
  ## Technologies Used:
 
-We utilized the following technologies to create RestaurantMania:
+We utilized the following technologies to create Ceva Dulce:
 
 - **React**: A popular web application library known for its effectiveness in creating interactive and dynamic UI components.
 - **Tailwind**: Used for impressive and responsive styling, in addition to custom CSS.
@@ -31,12 +31,12 @@ We utilized the following technologies to create RestaurantMania:
       ```
       (Alternatively, you can use `pnpm install`.)
 
-3. **Run the Frontend:**
-    - Once the dependencies are installed, run the following command to start the frontend:
+3. **Run the Project:**
+    - Once the dependencies are installed, run the following command to start the project:
       ```
       npm run start
       ```
-    - Click on the link provided in the terminal to open the page and experience RestaurantMania!
+    - Click on the link provided in the terminal to open the page and experience Ceva Dulce!
 
 ## How to Use
 
