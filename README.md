@@ -12,7 +12,13 @@ We utilized the following technologies to create RestaurantMania:
 - **Tailwind**: Used for impressive and responsive styling, in addition to custom CSS.
 - **CSS**: Additional custom styling.
 
-### Setup:
+  ### Future Plans:
+
+  My future plans for this website:
+  -Implement the SignUp to create a profile for people who wants to see their orders.
+  -Add an online shopping cart.
+
+#### Setup:
 
 1. **Prerequisites:**
     - Make sure Node.js is installed and properly configured on your system.
