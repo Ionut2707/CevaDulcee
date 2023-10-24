@@ -9,6 +9,14 @@ Before you begin, ensure you have met the following requirements:
 
 - Node.js: Make sure you have Node.js installed. You can download it [here](https://nodejs.org/).
 
+ ### Technologies Used:
+
+We utilized the following technologies to create RestaurantMania:
+
+- **React**: A popular web application library known for its effectiveness in creating interactive and dynamic UI components.
+- **Tailwind**: Used for impressive and responsive styling, in addition to custom CSS.
+- **CSS**: Additional custom styling.
+
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps:
