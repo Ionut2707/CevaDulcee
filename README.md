@@ -1,15 +1,10 @@
 # Ceva Dulce
 
 Ceva Dulce is a website dedicated to showcasing a delightful selection of cakes and sweets.
-![Ceva-dulce Screenshot](/background.png)
+![Ceva-dulce Screenshot](images/background.png)
 
-## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
-
-- Node.js: Make sure you have Node.js installed. You can download it [here](https://nodejs.org/).
-
- ### Technologies Used:
+ ## Technologies Used:
 
 We utilized the following technologies to create RestaurantMania:
 
@@ -17,39 +12,36 @@ We utilized the following technologies to create RestaurantMania:
 - **Tailwind**: Used for impressive and responsive styling, in addition to custom CSS.
 - **CSS**: Additional custom styling.
 
-## Getting Started
+### Setup:
 
-To get a local copy up and running, follow these simple steps:
+1. **Prerequisites:**
+    - Make sure Node.js is installed and properly configured on your system.
 
-1. Clone the repository:
+2. **Install Dependencies:**
+    - Navigate to the `ceva-dulce` directory in your terminal.
+    - Run the following command to install the necessary dependencies:
+      ```
+      npm install
+      ```
+      (Alternatively, you can use `pnpm install`.)
 
-   ```sh
-   git clone https://github.com/yourusername/ceva-dulce.git
-   Replace 'yourusername' with your GitHub username.
+3. **Run the Frontend:**
+    - Once the dependencies are installed, run the following command to start the frontend:
+      ```
+      npm run start
+      ```
+    - Click on the link provided in the terminal to open the page and experience RestaurantMania!
 
-2. Change into the project directory:
+## How to Use
 
-``sh
-cd ceva-dulce
+To use Ceva Dulce:
 
-3. Install the project dependencies:
+1. Click the "Produse" button to view the page listing all the restaurants.
 
-``sh
-npm install
+2. You can contact by sending direct a message to the owner for a specific product .
 
-4. Start the development server:
+3. Press "See more" on any restaurant to view detailed information (note: menu data is not available in the mock).
 
-``sh
-npm start
+## Code Contributors
 
-This will start the development server and open the project in your default web browser.
-
-
-Built With
-
-React - JavaScript library for building user interfaces
-React Router - Declarative routing for React
-Tailwind CSS - A utility-first CSS framework
-React Icons - Icons for React applications
-React Responsive Carousel - A responsive carousel component for React
-react-scroll - Scroll animations for React components
+- Dima Ionut Adrian: [GitHub Profile](https://github.com/Ionut2707)
