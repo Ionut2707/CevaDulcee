@@ -20,14 +20,17 @@ To get a local copy up and running, follow these simple steps:
 
 2. Change into the project directory:
 
+``sh
 cd ceva-dulce
 
 3. Install the project dependencies:
 
+``sh
 npm install
 
 4. Start the development server:
 
+``sh
 npm start
 
 This will start the development server and open the project in your default web browser.
