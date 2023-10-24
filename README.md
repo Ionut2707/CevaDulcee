@@ -42,11 +42,10 @@ We utilized the following technologies to create RestaurantMania:
 
 To use Ceva Dulce:
 
-1. Click the "Produse" button to view the page listing all the restaurants.
+1. Click the "Produse" button to go on the page to view products that you can order.
 
 2. You can contact by sending direct a message to the owner for a specific product .
 
-3. Press "See more" on any restaurant to view detailed information (note: menu data is not available in the mock).
 
 ## Code Contributors
 
